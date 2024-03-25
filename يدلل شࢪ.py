@@ -94,7 +94,7 @@ def user1():
 		while True:
 			mm = int(''.join(random.choice('23456789')for i in range(1)))
 		
-			v1 = str(''.join(random.choice(ii)for i in range(1)))
+			v1 = str(''.join(random.choice(A)for i in range(1)))
 			v2 = str(''.join(random.choice(ii)for i in range(1)))
 			v3 = str(''.join(random.choice(f)for i in range(1)))
 			v4 = str(''.join(random.choice(A)for i in range(1)))
