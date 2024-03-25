@@ -61,7 +61,7 @@ logo=f"""
 ⠀⠀⠀⠀⠀⠈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⣿⣷⣶⣤⡔⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣝⢿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⡿⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠈⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠈⠛⣛⣛⣂⣀⣀⣀⠀⣀⣀⣀⣀⣀⣀⡀⣈⣉⣀⣀⣀⠀⠀⣀⣀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠈⢿⣿⣿⣿⠋⢉⡻⣿⣿⣿⣿⣿⣿⠀⠀⣿⣿⠛⢻⣿⡿⠀⠛⣿⡟⠛⢻⣿⡇⠙⣿⡟⠛⢻⣿⡄⣿⣿⠛⣻⣿⡿{e}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠈⢿⣿⣿⣿⠋⢉⡻⣿⣿⣿⣿⣿⣿⠀⠀⣿⣿⠛⢻⣿⡿⠀⠛⣿⡟⠛⢻⣿⡇⠙⣿⡟⠛⢻⣿⡄⣿⣿⠛⣻⣿⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠈⢻⣿⣿⡄⠈⢿⣷⡹⣿⣿⣿⣿⣿⡃⠀⢀⣴⣿⠏⠀⠀⠀⣿⣷⣶⠀⠀⠀⠀⣿⣷⣶⣾⣿⠁⠀⢀⣴⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣿⣧⠀⠘⣿⣿⣌⢻⣿⣿⡟⠁⣠⣾⣟⣁⣰⣶⠀⠀⣿⡇⠀⢰⣶⡆⠀⣿⣇⠀⣸⣿⠇⣠⣿⣟⣁⣰⣶⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣧⠀⠘⣿⣿⣷⣍⢿⠀⠀⠛⠛⠛⠛⠛⠛⠀⠛⠛⠛⠛⠛⠛⠃⠛⠛⠛⠛⠛⠋⠀⠛⠛⠛⠛⠛⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -95,10 +95,10 @@ def user1():
 			mm = int(''.join(random.choice('23456789')for i in range(1)))
 		
 			v1 = str(''.join(random.choice(ii)for i in range(1)))
-			v2 = str(''.join(random.choice(v1)for i in range(1)))
+			v2 = str(''.join(random.choice(ii)for i in range(1)))
 			v3 = str(''.join(random.choice(f)for i in range(1)))
-			v4 = str(''.join(random.choice(v1)for i in range(1)))
-			v5 = str(''.join(random.choice(A)for i in range(1)))
+			v4 = str(''.join(random.choice(A)for i in range(1)))
+			v5 = str(''.join(random.choice(v1)for i in range(1)))
 			user = v1+v2+v3+v4+v5
 	
 			cookies = {
