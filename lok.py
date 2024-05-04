@@ -63,8 +63,8 @@ print("—"*60)
 #====لوكو====
 token1 = "7042398014:AAELHhBMWZX28y7AJYHcoGK-nyy92YBJwdk"
 id1 = 6060332252
-token = "6504402239:AAHkJsUdnbkPpeyHK1Jt-Zgps3rvAaGCju4"
-id = 6060332252
+token = "7003746058:AAE9TEyxHCXHJptkYywhLP57G1IBg_K5kDM"
+id = 6111791678
 ZZE = (f"""
 تم تشغيل الاداه
 
@@ -83,9 +83,9 @@ def cc():
     D = '_'
     Sd = '.'
     def random_user():
-        a1 = random.choice(A)
+        a1 = random.choice(D)
         a2 = random.choice(A)
-        a3 = random.choice(A)
+        a3 = random.choice(Sd)
         a4 = random.choice(A)
         a5 = random.choice(D)
         return a1 + a2 + a3 + a4 + a5
