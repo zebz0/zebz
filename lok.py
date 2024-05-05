@@ -79,7 +79,7 @@ def cc():
         def randomusers():
             pass
 
-    A = "qqwweerrttyyuuiiooppllkkjjhhggffddssaammnnbbvvccxxzz11223344556677889900"
+    A ="11223344556677889900"
     D = '_.'
     def random_user():
         a1 = random.choice(A)
