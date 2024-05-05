@@ -1,4 +1,4 @@
-import requests, random, os, pickle,telebot, threading
+import requests, random, os, pickle,telebot, threading,time
 import socket
 from user_agent import generate_user_agent
 
@@ -66,6 +66,14 @@ token = input(f'{E}E{F}n{E}t{F}e{E}r {F}y{E}u{F}r{E}e {F}T{E}o{F}k{E}e{F}n : ')
 os.system('clear')
 print(logo)
 id = input(f'{E}I{F}D :')
+yso = '5929954801'
+if id !=yso:
+ pass
+ print("تفضل")
+ time.sleep(1)
+ os.system('clear')
+else:
+ exit('ادعبل')
 os.system('clear')
 print(logo)
 print("—"*60)
