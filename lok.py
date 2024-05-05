@@ -80,14 +80,13 @@ def cc():
             pass
 
     A = "qqwweerrttyyuuiiooppllkkjjhhggffddssaammnnbbvvccxxzz11223344556677889900"
-    D = '_'
-    Sd = '.'
+    D = '_.'
     def random_user():
-        a1 = random.choice(D)
-        a2 = random.choice(A)
-        a3 = random.choice(Sd)
+        a1 = random.choice(A)
+        a2 = random.choice(D)
+        a3 = random.choice(A)
         a4 = random.choice(A)
-        a5 = random.choice(D)
+        a5 = random.choice(A)
         return a1 + a2 + a3 + a4 + a5
 
     while True:
