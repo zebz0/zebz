@@ -59,6 +59,7 @@ logo ="""
 
 """
 print(logo)
+print('رد خاص يمعود') 
 #====لوكو====
 token1 = "7042398014:AAELHhBMWZX28y7AJYHcoGK-nyy92YBJwdk"
 id1 = 6060332252
