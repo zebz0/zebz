@@ -92,7 +92,7 @@ def cc():
         def randomusers():
             pass
 
-    A ="11223344556677889900"
+    A ="qwertyuiopasdfghjklzxcvbnm11223344556677889900"
     D = '_'
     DD ='.'
 
