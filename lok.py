@@ -16,8 +16,8 @@ if current_time > expiry_time:
     exit(0)
 Aa =0
 Bb = 0
-token="7082657991:AAFkfDXT5U9fcgdGXBHk8L9ewGvmjKJN0tI"
-id=662667108
+token="7375430026:AAGhqZwMIhTuSzyjdkDzk89cyobkUKHXKSo"
+id=5506406416
 
 def cc():
     while True:
